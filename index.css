@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  
+}
+
+.conteiner{
+    background-color: rgb(109, 109, 197);
+    width: 20vw;
+    height: 60vh;
+    border-radius: 60px;
+    border: 4px #fcab03 solid;
+    
+}
+
+.titulo{
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+font-size: 30px;
+color: rgb(101, 95, 95);
+
+}
+
+
+
+.name,.correio, .CaixaSenha{
+    margin-left: 30px;
+    margin-top: 40px;
+ 
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    outline: none;
+   color:  #fcab03;;
+   font-style: italic;  
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+  
+   
+    
+}
+
+input:hover{
+    transition:1s;
+    border: 2px solid rgb(221, 47, 47);
+    
+     border-radius:20px ;
+    
+}
+
+input::placeholder {
+   
+    font-style: italic;
+}
+
+.butao{
+   
+    margin-top: 1rem;
+}
+
+#btn{
+    margin-left: 4rem;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #fcab03;
+}
+#btn:hover{
+     transition: 0.5s;
+    border: 2px solid rgb(221, 47, 47);
+     background-color: rgb(227, 226, 226); 
+     border-radius:20px ;
+}
+
+ span:hover {
+    color: #fcab03;
+    transition: 0.2s;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    
+ }
+
+
+ #resposta{
+    font-size: 15px;
+    color: #fcab03;
+    padding-left: 9px;
+    font-style: italic;
+ }
+label{
+padding: 5px ;
+border-left:3px solid #fcab03 ;
+border-radius: 10px;
+ }
+
+#RespostaSenha{
+font-size: 15px;
+    color: #fcab03;
+    padding-left: 9px;
+    font-style: italic;
+ }
+
+
+
+

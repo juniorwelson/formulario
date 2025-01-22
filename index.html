@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulário js</title>
+    <script src="index.js" defer></script>
+</head>
+<body> 
+    
+<section class="conteiner">
+
+<h1 class="titulo"><span id="f" class="fe">F</span> <span>o</span> <span>r</span>  <span>m</span> <span>u</span> <span>l</span> <span>á</span>  <span>r</span>  <span>i</span>  <span>o</span></h1>
+
+    <form name="Formulário" id="form">
+<div class="name">
+<label for="nome"> Nome</label>
+<input type="text" id="nome" name="nome" required placeholder="Seu Nome" ></div>
+
+<div class="correio">
+<label for="email"> Email</label>
+
+<input type="text"  onkeyup="return minimo()" id="email" name="email" required maxlength="25" placeholder="Seu E-mail">
+
+<p id="resposta" name ="resposta"></p>
+</div>
+
+
+<div class="CaixaSenha">
+<label for="senha"  > Senha</label>
+<input type="password" onkeyup="return ValidarSenha()" id="senha" required maxlength="10" name="senha" placeholder="Senha">
+<p id="RespostaSenha"></p>
+
+</div>
+    </form>
+
+<div class="butao"></div>
+    <button type="submit" id="btn"  onclick="return validate()">Entrar</button></div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
